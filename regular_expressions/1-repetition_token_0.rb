@@ -1,4 +1,2 @@
 #!/usr/bin/env ruby
-# 1-repetition_token_0.rb
-
-puts ARGV[0].scan(/Holberton/).join
+puts ARGV[0].scan(/hbt{1,5}n/).join
